@@ -5,7 +5,7 @@
 //
 
 import UIKit
-import frameworkstarter
+import rgimport
 
 extension ViewController   {
      
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         let sample = SampleClass()
-        print("Is the framework functioning? should get a value for greeting = \(sample.greet())")
+        print("PF Is the framework functioning? should get a value for greeting = \(sample.greet())")
     }
 
     override func didReceiveMemoryWarning() {
